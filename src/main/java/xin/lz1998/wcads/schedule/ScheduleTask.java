@@ -14,9 +14,9 @@ public class ScheduleTask {
     @Autowired
     WcaService wcaService;
 
-    @Scheduled(cron = "0 15 12 * * ?",zone = "Asia/Shanghai")
+    @Scheduled(cron = "0 30 13 * * ?",zone = "Asia/Shanghai")
     public void updateWcaData(){
         logger.info("update wca data");
-        wcaService.updateData();
+        // wcaService.updateData();
     }
 }
