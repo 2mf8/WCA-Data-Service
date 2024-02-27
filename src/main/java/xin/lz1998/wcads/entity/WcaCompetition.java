@@ -24,7 +24,7 @@ public class WcaCompetition {
     @Column(name = "COUNTRYID")
     private String countryId;
 
-    @Column(name = "INFORMATION",length = 20000)
+    @Column(name = "INFORMATION",length = 20480)
     private String information;
 
     @Column(name = "YEAR")
