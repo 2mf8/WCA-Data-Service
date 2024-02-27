@@ -3,7 +3,7 @@ name: Java CI
 on:
   push:
     branches:
-      - master
+      - 2mf8-0.0.1
 
 jobs:
   build:
