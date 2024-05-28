@@ -45,7 +45,7 @@ public class WcaCompetition {
     @Column(name = "EVENTSPECS")
     private String eventSpecs;
 
-    @Column(name = "WCADELEGATE",length = 5000)
+    @Column(name = "WCADELEGATE",length = 20480)
     private String wcaDelegate;
 
     @Column(name = "ORGANISER",length = 1000)
