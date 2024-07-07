@@ -48,7 +48,7 @@ public class WcaCompetition {
     @Column(name = "WCADELEGATE",length = 20480)
     private String wcaDelegate;
 
-    @Column(name = "ORGANISER",length = 1000)
+    @Column(name = "ORGANISER",length = 2000)
     private String organiser;
 
     @Column(name = "VENUE")
